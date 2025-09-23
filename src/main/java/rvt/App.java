@@ -4,13 +4,15 @@ public class App {
     public static void main(String[] args) {
         // Your code goes here...
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the first string: ");
+        String str1 = scanner.nextLine();
+        System.out.println("Enter the second string: ");
+        String str2 = scanner.nextLine();
 
-        System.out.println("Give speed: ");
-
-        int speed = Integer.valueOf(scanner.nextInt());
-
-        if(speed >= 120){
-            System.out.println("Speeding ticket");
+        if (str1.equals(str2)) {
+            System.out.println("Same.");
+        } else {
+            System.out.println("Different.");
         }
         scanner.close();
 
