@@ -19,6 +19,6 @@ public class AdvancedAstrology {
         for(int i = 1; i < size + 1; i++){
             printSpaces(size - i);
             printStars(i);
-        }
+        } 
     }
 }
